@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="ApplicationList" method="post">
+	Click button to show applications
+	<br>
+	<input type="submit" name="show" value="Show applications"/>
+	<br><br><br>
+	
+	Enter applicant name to deny application
+	<br>
+	<input type="text" name="name"/>
+	<br><br>
+	<input type="submit" name="deny" value="Deny applications" onclick="form.action='DeleteApplication';"/>
+	<br><br><br>
+	
+	Enter applicant name and late months to approve and MEI
+	<br>
+	<input type="text" name="app_name"/>
+	<br>
+	Enter 0 if no late month
+	<br>
+	<input type="number" name="month"/>
+	<br><br>
+	<input type="submit" name="approve" value="approve applications" onclick="form.action='MEI';"/>
+</form>
+
+</body>
+</html>

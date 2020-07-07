@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Apply Loan</title>
+</head>
+<body>
+<form action="InsertLoan" method="post">
+<table>
+	
+	<tr>
+		<td>Name</td>
+		<td><input type="text" name="name"/></td>
+	</tr>
+	
+	<tr>
+		<td>age</td>
+		<td><input type="text" name="age"/></td>
+	</tr>
+	
+	<tr>
+		<td>address</td>
+		<td><input type="text" name="address"/></td>
+	</tr>
+	
+	<tr>
+		<td>Phone number</td>
+		<td><input type="text" name="p_number"/></td>
+	</tr>
+	
+	<tr>
+		<td>Loan Amount</td>
+		<td><input type="number" name="l_amount"/></td>
+	</tr>
+	
+	<tr>
+		<td>Years of payment</td>
+		<td><input type="number" name="p_year"/></td>
+	</tr>
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
+	<tr>
+		<td><input type = "reset" value = "Clear"></td>
+		<td><input type="submit" value="Submit"/></td>	
+	</tr>	
+		
+</table>
+<br><br>
+Enter your name to check your information
+<br>
+<input type="text" name="username"/>
+<br><br>
+<input type="submit" value="Submit" onclick="form.action='LoanInformation';"/>
+</form>
+
+</body>
+</html>
